@@ -7,14 +7,14 @@ It is the process of identifying and selecting a subset of variables from the or
 We can summarize feature selection as follows:
 1) Feature Selection: Select a subset of input features from the dataset.
     - Unsupervised: Do not use the target variable (e.g. remove redundant variables).
-        a) Correlation
+        - Correlation
     - Supervised: Use the target variable (e.g. remove irrelevant variables).
-        a) Wrapper: Search for well-performing subsets of features.
+        - Wrapper: Search for well-performing subsets of features.
             - RFE
-        b) Filter: Select subsets of features based on their relationship with the target.
+        - Filter: Select subsets of features based on their relationship with the target.
             - Statistical Methods
             - Feature Importance Methods
-        c) Intrinsic: Algorithms that perform automatic feature selection during training.
+        - Intrinsic: Algorithms that perform automatic feature selection during training.
             - Decision Trees
 2) Dimensionality Reduction: Project input data into a lower-dimensional feature space.
 
